@@ -1,0 +1,12 @@
+{
+  "name": "xcloud-pm-sample-yarn",
+  "version": "1.0.0",
+  "private": true,
+  "description": "xCloud QA sample: Node app installed and started with yarn 1 (classic)",
+  "scripts": {
+    "build": "mkdir -p dist && echo ok > dist/BUILD_OK && echo build ok",
+    "start": "yarn run serve",
+    "serve": "node server.js"
+  },
+  "dependencies": { "ms": "2.1.3" }
+}
